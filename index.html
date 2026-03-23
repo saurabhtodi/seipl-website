@@ -194,26 +194,6 @@
     margin-bottom: 0;
     animation: fadeUp 0.8s ease 0.3s both;
   }
-  .hero-stats {
-    display: flex; gap: 40px;
-    margin-top: 40px;
-    padding-top: 28px;
-    border-top: 1px solid rgba(255,255,255,0.08);
-    animation: fadeUp 0.8s ease 0.45s both;
-  }
-  .stat-num {
-    font-family: 'DM Serif Display', serif;
-    font-size: 2.2rem;
-    color: var(--brass-light);
-    line-height: 1;
-  }
-  .stat-label {
-    font-size: 0.72rem;
-    color: rgba(255,255,255,0.45);
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin-top: 4px;
-  }
   @keyframes fadeUp {
     from { opacity: 0; transform: translateY(24px); }
     to { opacity: 1; transform: translateY(0); }
@@ -689,7 +669,6 @@
     .machines-with-photo { grid-template-columns: 1fr; }
     .map-bar { grid-template-columns: 1fr; }
     .map-text { padding: 32px 24px; }
-    .hero-stats { gap: 28px; }
   }
   @media (max-width: 720px) {
     .nav-links { display: none; }
@@ -707,7 +686,6 @@
     .products-grid, .machines-row { grid-template-columns: 1fr; }
     .why-grid { grid-template-columns: repeat(2, 1fr); }
     .machines-with-photo { grid-template-columns: 1fr; }
-    .hero-stats { flex-wrap: wrap; gap: 20px; }
     .form-row { grid-template-columns: 1fr; }
     .contact-form { padding: 24px 18px; }
   }
@@ -757,16 +735,6 @@
       <div class="hero-badge">Trusted Since 1979</div>
       <h1>Crafting <em>Premium</em> Knitted Fabrics for Over Four Decades</h1>
       <p>From cotton jerseys to luxurious velours — Shree Enterprises delivers superior quality knitted fabrics, manufactured with precision in the heart of India's hosiery capital.</p>
-      <div class="hero-stats">
-        <div>
-          <div class="stat-num">45+</div>
-          <div class="stat-label">Years of Legacy</div>
-        </div>
-        <div>
-          <div class="stat-num">10,000+</div>
-          <div class="stat-label">Fabric Designs</div>
-        </div>
-      </div>
     </div>
   </div>
 </section>
