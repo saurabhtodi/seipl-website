@@ -25,7 +25,7 @@
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  html { scroll-behavior: smooth; font-size: 17px; }
+  html { scroll-behavior: smooth; font-size: 18px; }
   body {
     font-family: 'Outfit', sans-serif;
     background: var(--white);
@@ -236,16 +236,16 @@
     margin-bottom: 12px;
   }
   .section-subtitle {
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: var(--text-light);
-    line-height: 1.6;
+    line-height: 1.65;
     max-width: 560px;
   }
 
   /* ── ABOUT ── */
   .about {
     padding: 80px 0;
-    background: #f4f7f3;
+    background: #f6f3ef;
   }
   .about-grid {
     display: grid;
@@ -296,9 +296,9 @@
   }
   .about-text p {
     color: var(--text-light);
-    line-height: 1.75;
-    margin-bottom: 12px;
-    font-size: 0.92rem;
+    line-height: 1.8;
+    margin-bottom: 14px;
+    font-size: 1rem;
   }
   /* ── PRODUCTS ── */
   .products {
@@ -322,7 +322,7 @@
   .product-card::before {
     content: '';
     position: absolute; top: 0; left: 0; right: 0; height: 3px;
-    background: linear-gradient(90deg, var(--accent), var(--blue-light));
+    background: linear-gradient(90deg, #c0272d, var(--brass));
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.4s ease;
@@ -356,16 +356,16 @@
     margin-bottom: 10px;
   }
   .product-card p {
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     color: var(--text-light);
-    line-height: 1.65;
+    line-height: 1.7;
   }
   .yarn-tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 16px; }
   .yarn-tag {
     background: #eef6f1;
     padding: 6px 14px;
     border-radius: 6px;
-    font-size: 0.78rem;
+    font-size: 0.84rem;
     color: var(--accent-deep);
     font-weight: 600;
     border: 1px solid rgba(26,122,79,0.14);
@@ -388,7 +388,7 @@
   .machine-chip {
     display: flex; align-items: center; gap: 12px;
     padding: 16px 18px;
-    background: #f4f7f3;
+    background: #f6f3ef;
     border-radius: 10px;
     border: 1px solid rgba(0,0,0,0.05);
     transition: all 0.3s;
@@ -404,7 +404,7 @@
     flex-shrink: 0;
   }
   .machine-chip span {
-    font-size: 0.84rem;
+    font-size: 0.95rem;
     font-weight: 500;
     color: var(--ink);
   }
@@ -412,7 +412,7 @@
   /* ── WHY US ── */
   .why-us {
     padding: 80px 0;
-    background: linear-gradient(135deg, var(--blue-deep) 0%, #1a3550 50%, var(--blue) 100%);
+    background: linear-gradient(135deg, #1a2420 0%, #1e2d26 55%, #1a2420 100%);
     color: #fff;
   }
   .why-us .section-label { color: var(--brass-light); }
@@ -432,8 +432,8 @@
     transition: all 0.4s ease;
   }
   .why-card:hover {
-    background: rgba(255,255,255,0.08);
-    border-color: rgba(42,111,170,0.5);
+    background: rgba(255,255,255,0.07);
+    border-color: rgba(184,148,46,0.45);
     transform: translateY(-4px);
   }
   .why-card .num {
@@ -449,15 +449,15 @@
     margin-bottom: 8px;
   }
   .why-card p {
-    font-size: 0.82rem;
-    color: rgba(255,255,255,0.5);
-    line-height: 1.65;
+    font-size: 0.95rem;
+    color: rgba(255,255,255,0.6);
+    line-height: 1.7;
   }
 
   /* ── CONTACT ── */
   .contact {
     padding: 80px 0 0;
-    background: #f4f7f3;
+    background: #f6f3ef;
   }
   .contact-grid {
     display: grid;
@@ -473,9 +473,9 @@
   }
   .contact-info > p {
     color: var(--text-light);
-    font-size: 0.88rem;
+    font-size: 1rem;
     margin-bottom: 28px;
-    line-height: 1.6;
+    line-height: 1.65;
   }
   .contact-detail {
     display: flex; align-items: flex-start; gap: 12px;
@@ -492,13 +492,13 @@
   }
   .contact-detail strong {
     display: block;
-    font-size: 0.78rem;
+    font-size: 0.88rem;
     color: var(--ink);
     font-weight: 600;
     margin-bottom: 1px;
   }
   .contact-detail span {
-    font-size: 0.82rem;
+    font-size: 0.93rem;
     color: var(--text-light);
     line-height: 1.5;
   }
@@ -547,15 +547,15 @@
   .form-group input:focus,
   .form-group textarea:focus,
   .form-group select:focus {
-    border-color: var(--blue);
-    box-shadow: 0 0 0 3px rgba(27,77,122,0.12);
+    border-color: #c0272d;
+    box-shadow: 0 0 0 3px rgba(192,39,45,0.12);
   }
   .form-group textarea { resize: vertical; min-height: 80px; }
   .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
   .submit-btn {
     width: 100%;
     padding: 13px;
-    background: var(--blue);
+    background: #c0272d;
     color: #fff;
     font-family: 'Outfit', sans-serif;
     font-size: 0.88rem;
@@ -568,9 +568,9 @@
     margin-top: 4px;
   }
   .submit-btn:hover {
-    background: var(--blue-deep);
+    background: #9b1b20;
     transform: translateY(-1px);
-    box-shadow: 0 6px 20px rgba(27,77,122,0.3);
+    box-shadow: 0 6px 20px rgba(192,39,45,0.3);
   }
 
   /* ── MAP (inline in contact) ── */
@@ -578,7 +578,7 @@
     margin-top: 56px;
     display: grid;
     grid-template-columns: 1fr 1.5fr;
-    background: var(--blue-deep);
+    background: #1a2420;
     border-radius: 16px 16px 0 0;
     overflow: hidden;
   }
@@ -996,7 +996,7 @@
   </div>
 </section>
 
-<div style="height: 80px; background: #f4f7f3;"></div>
+<div style="height: 80px; background: #f6f3ef;"></div>
 
 <!-- Footer -->
 <footer>
